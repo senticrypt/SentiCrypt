@@ -7,10 +7,9 @@ print('Oldest result: {}'.format(result[0]))
 print('Newest result: {}'.format(result[-1]))
 
 # Example calculations
-mean_sentiment results[-1]['mean']
-median_sentiment = results[-1]['median']
-rate = results[-1]['rate']
+mean_sentiment = result[-1]['mean']
+median_sentiment = result[-1]['median']
+rate = result[-1]['rate']
 
 if median_sentiment > mean_sentiment and rate > 1:
-  print('BUY')
-  
+    print('BUY')
